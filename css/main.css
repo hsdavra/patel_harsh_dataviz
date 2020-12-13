@@ -8,3 +8,38 @@
 body { font-size: 16px; font-family: 'Arial', 'helvetica', sans-serif; }
 
 .hidden { display: none; }
+
+.wrapper h2 {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.argument {
+	display: flex;
+	flex-direction: row;
+}
+
+.subhead {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.argument p {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px; 
+}
+
+.flexCol {
+	display: flex;
+	flex-direction: column;
+}
+
